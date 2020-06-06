@@ -1,0 +1,87 @@
+.whoweare-div-new {
+  background-color: white;
+  width: 90%;
+  color: #39207c;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 100;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+}
+.about-me-right {
+  background-color: #39207c;
+  display: flex;
+  width: 35%;
+}
+.about-me-right-text {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-me-left {
+  padding: 2rem;
+  width: 65%;
+}
+.about-me-left h4 {
+  margin: 5px 0;
+}
+.about-me-left p {
+  font-size: medium;
+}
+.about-me-left-img {
+  width: 100%;
+}
+.about-me-left-title {
+  display: inline-block;
+  background-color: rgb(70, 52, 78);
+  color: white;
+  padding: 5px;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: medium;
+}
+.whoweare-h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 5rem;
+  width: 100%;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  color: #39207c;
+}
+.whoweare-wrd {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #ef0d33;
+}
+.whoweare-div {
+  width: 60%;
+  color: #39207c;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 2rem;
+  padding-top: 0;
+  margin: auto;
+  /* margin-top: 2rem; */
+  font-size: 1.3rem;
+  font-weight: 200;
+}

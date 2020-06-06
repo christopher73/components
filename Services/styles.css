@@ -1,0 +1,88 @@
+.services-main-container {
+  margin-top: 2rem;
+}
+.services-main-title {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-size: 2.5rem;
+  width: 60%;
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  color: #39207c;
+  left: 0;
+  font-weight: 700;
+}
+.services-main-div {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-top: 2rem;
+  justify-content: space-between;
+  margin: auto;
+}
+.services-childrens-div {
+  z-index: 3;
+  width: 13rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  /* border-radius: 1rem; */
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  border: 0.5rem solid white;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+}
+
+.services-svg {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.services-h1 {
+  margin: 15px auto;
+  text-align: center;
+  color: #39207c;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.services-childrens-p {
+  color: #1c1c72;
+  margin-bottom: 1rem;
+  line-height: 1.85;
+  font-size: medium;
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+}
+.services-childrens-button {
+  text-decoration: none;
+  /* z-index: 99 !important; */
+  background-color: #94e0ba;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 20px;
+  /* margin: auto; */
+
+  padding: 10px 20px;
+  pointer-events: auto;
+  font-size: 1.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+.services-childrens-button:hover {
+  background-color: #3cb97b;
+}

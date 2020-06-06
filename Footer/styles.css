@@ -1,0 +1,40 @@
+.footer-container {
+  font-size: small;
+  /* margin-top: auto; */
+  min-width: 100%;
+}
+.footer-logo {
+  text-align: center;
+  color: white;
+  background-color: #ef0d33;
+  width: 170px;
+  padding: 5px;
+  margin: auto;
+}
+.footer-text {
+  text-align: center;
+  color: darkgray;
+  margin: auto;
+}
+.footer-text a {
+  text-decoration: none;
+  color: darkgray;
+}
+.footer-div-text {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+.footer-div-link {
+  color: #dfd9d9;
+  margin: 20px 0;
+  text-align: center;
+}
+.footer-div-link a {
+  color: darkgray;
+  text-decoration: none;
+}
+.footer-div-link a:hover,
+.footer-text a:hover {
+  color: #804dd1;
+}

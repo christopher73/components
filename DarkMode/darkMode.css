@@ -1,0 +1,75 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 100%;
+  padding: 6.5px;
+  margin-right: 17px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* NOTE: slider is inside the switch  */
+.slider {
+  border: 1.5px solid black;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../../assets/day.png');
+  background-color: #f1f1f1;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  bottom: 2px;
+  left: 2px;
+  border: 1.5px solid #ff6b6b;
+  background-color: #ff5959c9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transition: 0.63s;
+  transition: 0.63s;
+}
+
+input:checked + .slider {
+  background: url('../../assets/night.png');
+  background-color: #003030;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 15px #003030;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(33px);
+  -ms-transform: translateX(33px);
+  transform: translateX(33px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
